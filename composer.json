@@ -1,9 +1,9 @@
 {
-  "name": "icamys/php-sitemap-generator",
+  "name": "miraclebg/php-sitemap-generator",
   "version": "2.0.0",
   "description": "Simple PHP sitemap generator.",
   "keywords": ["php", "sitemap", "generator", "psr-1", "psr-2", "psr-4"],
-  "homepage": "https://github.com/icamys/php-sitemap-generator",
+  "homepage": "https://github.com/miraclebg/php-sitemap-generator",
   "type": "library",
   "license": "MIT",
   "minimum-stability": "stable",
@@ -12,6 +12,11 @@
       "name": "Prisacari Dmitrii",
       "email": "prisacari.dmitrii@gmail.com",
       "homepage": "http://github.com/icamys/"
+    },
+    {
+      "name" : "Martin Kovachev",
+      "email" : "miracle@nimasystems.com",
+      "homepage" : "http://github.com/miraclebg/"
     }
   ],
   "require": {
