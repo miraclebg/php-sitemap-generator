@@ -680,8 +680,7 @@ class SitemapGenerator
         $result = [];
 
         $submit_url = $this->getSubmitUrl();
-        ee($submit_url);
-        die;
+
         for ($i = 0; $i < count($searchEngines); $i++) {
             $submitSite = curl_init($searchEngines[$i] . htmlspecialchars($submit_url, ENT_QUOTES, 'UTF-8'));
             curl_setopt($submitSite, CURLOPT_RETURNTRANSFER, true);
